@@ -34,14 +34,6 @@
         }, 500);
     });
 
-    $('#mobile-menu-open').click(function() {
-        $('header, body').addClass('active');
-    });
-
-    $('#mobile-menu-close').click(function() {
-        $('header, body').removeClass('active');
-    });
-
     $('#view-more-projects').click(function(e){
         e.preventDefault();
         $(this).fadeOut(300, function() {

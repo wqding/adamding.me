@@ -138,41 +138,6 @@ header {
     }
 }
 
-#mobile-menu-open {
-    display: none;
-    cursor: pointer;
-    position: fixed;
-    right: 15px;
-    top: 10px;
-    color: $base-color;
-    font-size: 1.5em;
-    z-index: 20;
-    padding: 0 7px;
-    border-radius: 4px;
-    background: $background;
-}
-
-#mobile-menu-close {
-    display: none;
-    text-align: right;
-    width: 100%;
-    background: $background;
-    font-size: 1.5em;
-    padding-right: 15px;
-    padding-top: 10px;
-    cursor: pointer;
-    color: $base-color;
-
-    span {
-        font-size: 0.5em;
-        text-transform: uppercase;
-    }
-
-    i {
-        vertical-align: middle;
-    }
-}
-
 footer {
     padding: 50px 0;
 }
@@ -206,7 +171,7 @@ footer {
 }
 
 .social {
-    text-align: right;
+    text-align: center;
 
     ul {
         margin: 5px 0 0 0;
@@ -576,7 +541,7 @@ footer {
 
     input, textarea {
         display: block;
-        width: 100%;
+        width: 95%;
         padding: 10px;
         border-radius: 4px;
         border: none;
@@ -716,10 +681,6 @@ footer {
         animation: none;
         bottom: 0;
         height: 100%;
-    }
-
-    #mobile-menu-open, #mobile-menu-close {
-        display: block;
     }
 
     #menu {
