@@ -2,8 +2,9 @@
 //Variables
 
 // Define base and accent colors
-$base-color: #026cb3;
-$base-color-hover: darken($base-color, 10%);
+$base-color: #4f67ee;
+// $base-color: #0038a1;
+$base-color-hover: darken($base-color, 50%);
 
 // Define background colors
 $background: #fff;
@@ -131,15 +132,6 @@ footer {
     padding: 50px 0;
 }
 
-.copyright {
-    padding-top: 20px;
-
-    p {
-        margin: 0;
-        color: $text;
-    }
-}
-
 .top {
     text-align: center;
 
@@ -240,7 +232,7 @@ footer {
     height: 96vh;
     min-height: 50vh;
     max-height: 100vh;
-    background: url(../images/landing.png);
+    background: url(../images/landing.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -256,10 +248,10 @@ footer {
 
     h1, h2 {
         margin: 0;
+        color: #fff;
     }
 
     h1 {
-        color: #fff;
         font-weight: 900;
         font-size: 5em;
         text-transform: uppercase;
@@ -268,7 +260,6 @@ footer {
     }
 
     h2 {
-        color: lighten($base-color, 25%);
         font-weight: 500;
         font-size: 1.5em;
         margin-bottom: 15px;
@@ -283,7 +274,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba($base-color-hover, 0.9);
+    background: rgba($base-color-hover, 0.2);
     z-index: 1;
 }
 
@@ -432,8 +423,8 @@ footer {
 
     h3 {
         font-size: 1.5em;
-        font-weight: 300;
-        color: $heading;
+        font-weight: 500;
+        color: black;
         margin: 0 0 15px 0;
     }
 
@@ -441,6 +432,14 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+    }
+
+    a {
+        color: $base-color;
+    }
+
+    a:hover {
+        color: $base-color-hover;
     }
 }
 
