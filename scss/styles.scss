@@ -45,6 +45,11 @@ $text: #74808a;
 
 //global
 
+img {
+    max-width: 100%;
+    max-height: 100%;;
+}
+
 a {
     text-decoration: none;
 }
@@ -229,7 +234,7 @@ footer {
 
 #lead {
     position: relative;
-    height: 96vh;
+    height: 97vh;
     min-height: 50vh;
     max-height: 100vh;
     background: url(../images/landing.jpg);
@@ -410,6 +415,8 @@ footer {
 }
 
 .project-image {
+    height: 300px;
+    width: 300px;
     float: left;
 }
 
