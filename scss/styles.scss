@@ -58,6 +58,9 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
 
+    margin:0;
+    padding:0;
+
     &.active {
         overflow: hidden;
         z-index: -1;
@@ -234,7 +237,7 @@ footer {
 
 #lead {
     position: relative;
-    height: 96vh;
+    height: 100vh;
     min-height: 50vh;
     max-height: 96vh;
     background: url(../images/landing.jpg);
