@@ -372,6 +372,10 @@ footer {
     padding: 5px;
     text-align: left;
 
+    .education-date{
+        float: right;
+    }
+
     h3 {
         font-weight: 500;
         float: left;
@@ -431,12 +435,17 @@ footer {
 }
 
 .project-info {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    text-align: left;
+    position: relative;
+    // top: 50%;
+    // transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
     width: 60%;
+
+    .project-title, .project-link{
+        text-align: center;
+    }
 
     h3 {
         font-size: 1.5em;
@@ -647,10 +656,14 @@ footer {
     }
 
     .project-image {
-        display: none;
+        width: 100%;
     }
 
     .project-info {
+        .project-title{
+            display: none;
+        }
+        width: 90%;
         position: relative;
         margin: 0;
         padding: 30px 15px;
