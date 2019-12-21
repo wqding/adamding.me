@@ -446,24 +446,30 @@ footer {
     .project-title, .project-link{
         text-align: center;
     }
+    
+    h4 {
+        font-weight: 200;
+        margin: 0 0 20px 0;
+    }
 
     h3 {
         font-size: 1.5em;
         font-weight: 500;
         color: black;
-        margin: 0 0 15px 0;
+        margin: 0 0 5px 0;
     }
 
     p {
         color: $text;
-        margin: 0 0 15px 0;
+        margin: 0 0 5px 0;
         font-size: 0.9em;
+        font-weight: 600;
     }
 
     a {
         color: $base-color;
     }
-
+    
     a:hover {
         color: $base-color-hover;
     }
